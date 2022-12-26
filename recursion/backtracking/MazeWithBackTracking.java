@@ -1,7 +1,10 @@
 package recursion.backtracking;
 
+<<<<<<< HEAD
 import java.util.Arrays;
 
+=======
+>>>>>>> origin/main
 public class MazeWithBackTracking {
     public static void main(String[] args) {
         boolean[][] arr = {
@@ -9,12 +12,18 @@ public class MazeWithBackTracking {
                 {true,true,true},
                 {true,true,true}
         };
+<<<<<<< HEAD
         int[][] arr1= new int[arr.length][arr[0].length];
 //        allPaths("",arr,0,0);
         allPathsPrint("",arr,0,0,arr1,1);
     }
     public static void allPaths(String p, boolean[][] arr, int row, int col){
 
+=======
+        allPaths("",arr,0,0);
+    }
+    public static void allPaths(String p, boolean[][] arr, int row, int col){
+>>>>>>> origin/main
         if(row== arr.length-1 && col== arr[0].length-1){
             System.out.println(p);
             return;
@@ -29,6 +38,7 @@ public class MazeWithBackTracking {
 
         arr[row][col]=true;
     }
+<<<<<<< HEAD
 
     public static void allPathsPrint(String p, boolean[][] arr, int row, int col, int[][] arr1, int steps){
         if(row== arr.length-1 && col== arr[0].length-1){
@@ -53,4 +63,6 @@ public class MazeWithBackTracking {
         arr[row][col]=true;
     }
 
+=======
+>>>>>>> origin/main
 }
