@@ -12,10 +12,10 @@ public class QuickSort {
         if(low>=hi) return;
         int s= low;
         int e= hi;
-        int m = s+(e-s)/2;
+        int pivot = s+(e-s)/2;
         while (s<=e){
-            while (arr[s]<arr[m]) s++;
-            while (arr[e]>arr[m]) e--;
+            while (arr[s]<arr[pivot]) s++;
+            while (arr[e]>arr[pivot]) e--;
             if(s<=e){
                 int temp = arr[s];
                 arr[s]= arr[e];
