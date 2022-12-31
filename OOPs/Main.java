@@ -60,14 +60,20 @@ public class Main {
 //        System.out.println(obj1.a);
 //        System.out.println("____________________________________");
 //        System.out.println(obj1);
-        System.out.println("____________________________________");
-        SingleTon obj3 = SingleTon.getInstance();
-        SingleTon obj4 = SingleTon.getInstance();
-        SingleTon obj5 = SingleTon.getInstance();
-        System.out.println(obj3);
-        System.out.println(obj4);
-        System.out.println(obj5);
-        System.out.println("____________________________________");
+//        System.out.println("____________________________________");
+//        SingleTon obj3 = SingleTon.getInstance();
+//        SingleTon obj4 = SingleTon.getInstance();
+//        SingleTon obj5 = SingleTon.getInstance();
+//        System.out.println(obj3);
+//        System.out.println(obj4);
+//        System.out.println(obj5);
+//        System.out.println("____________________________________");
+
+
+        Class2 cls = new Class2();
+        System.out.println(cls.name);
+        System.out.println(cls.designation);
+        cls.display();
     }
 
 }
